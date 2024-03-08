@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover{
+    color: rgb(255, 183, 0);
+    transition: .5s;
+  
+}
+.navbar .active{
+    background: #605c5c;
+    padding: 5px;
+    color: rgb(255, 183, 0);
+}
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background: #281e1e;
+    padding: 10px;    
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+                                                          
+}
+.logo{
+    width: 50%; 
+}
+.logo h3{
+    color: white;
+    text-align: center;
+}
+.banner{
+    background-image: url(/assest/images/banner.jpg);
+    background-size:cover;
+    height: 500px;
+    position: relative;
+}
+.overlay-black:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(0 0 0 / 30%);
+    left: 0;
+    top: 0;
+}
+.banner-details{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.banner-details h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+span{
+    color: rgb(255, 183, 0);  
+}
+.banner-details p{
+    color: white;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.banner-details a{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #281e1e;
+    width: 120px;
+    padding: 5px;
+}
+p{
+    text-align: center;
+}
+.banner-details2{
+    background: #281e1e;
+    transform: translate(0%, 0%);
+    position: static;
+    
+}
+.block1{
+    display: flex;
+    align-items: center;
+
+}
+.banner-details2 p{
+    padding: 20px;
+}
+.banner-details2 button{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 5px;
+}
+.card-flex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    height: 230px;
+    width: 45%;
+    gap: 20px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+   
+   
+}
+.card-flex:hover{
+    background-color: rgb(255, 183, 0);  
+    transition: .5s;
+}
+.hello{
+    background-color: #281e1e;
+
+}
+.container{
+    max-width: 830px;
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contact h1{
+    font-size: 40px;
+}
+.text-start{
+    text-align: start !important;
+}
+input ,textarea{
+    width: 100%;
+}
+.contact button{
+    padding: 5px;
+    background-color: #281e1e;
+    color: white;
+    border: none;
+}
+.contact label{
+    padding-top:10px ;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+form{
+    padding-top: 20px;
+}
+.contact input:focus{
+outline:none;
+}
+.contact input{
+    padding: 10px ;
+    margin-bottom: 10px;
+
+}
+.contact-cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    height: 230px;
+   width: 370px;
+    gap: 20px;
+    /*  */
+
+}
+
+
+.contact-flex{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+   
+}
+.bg-black{
+    background-color: #000000;
+    margin-top: 30px;
+}
+.bg-black p , h3{
+    color: white;
+}
+.contact-cards img{
+    max-width: 60px;
+}
+.card-flex h3{
+    color: #000000;
+}
+.contact-cards:hover{
+    background-color: rgb(255, 183, 0);
+    transition: .5s;
+}
+.text-justify{
+    text-align: justify !important;
+}
+.about-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.w-75{
+    width: 75%;
+}
+.w-25{
+    width: 25%;
+}
+.round-img{
+    max-width: 270px;
+    border-radius: 50%;
+    height: 227px;
+    object-fit: cover;
+}
+.bg-attach{
+    margin-top: 30px;
+    background-image: url(/assest/images/banner.jpg);   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+
+
+ 
+}
+.text-center{
+    text-align: center;
+    font-size: 36px;
+}
+.testi{
+    width: 100%;
+    border-radius: 50%;
+    max-width: 80px;
+    height: 80px;
+}
+.testimonial{
+    display: flex;
+    justify-content: center;
+    background: #bd6c00c4;
+    gap: 30px;
+    padding: 10px;
+    width: 1000px;
+    margin-bottom: 30px;
+}
+.d-flex {
+    display: flex;
+    justify-content: center;
+}
+.pt-pb{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+}
+@media (max-width:767px){
+    .block1{
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+    }
+}
